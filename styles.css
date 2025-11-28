@@ -1,42 +1,41 @@
-/*  your css code here. If applicable */
-   /* Page background */
+ /* Page background */
         body {
             margin: 0;
             font-family: Arial, Helvetica, sans-serif;
-            background-color: #f5f5f5; /* As required */
+            background-color: #f5f5f5; /* required background */
         }
 
-        /* Main container for testimonials */
-        .testimonial-section {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 30px;                 /* Padding for the main container */
-            background-color: #f5f5f5;     /* Same background as page */
-        }
-
-        .testimonial-heading {
+        /* Heading */
+        h1 {
             text-align: center;
-            margin-bottom: 20px;
+            padding-top: 20px;
         }
 
-        /* Individual testimonial box */
+        /* Main container: first div */
+        .testimonial-container {
+            padding: 20px;              /* required padding */
+            background-color: #f5f5f5;  /* required background-color */
+            max-width: 700px;
+            margin: 20px auto;
+        }
+
+        /* Individual testimonial: div 2 and div 3 */
         .testimonial {
-            padding: 20px;                 /* Padding inside each testimonial */
-            border: 1px solid #ddd;        /* Border around each testimonial */
-            background-color: #ffffff;     /* White background for contrast */
+            padding: 15px;              /* required padding */
+            border: 1px solid #ccc;     /* required border */
+            background-color: #ffffff;  /* required background-color */
             margin-bottom: 15px;
-            border-radius: 4px;
         }
 
-        /* Testimonial text (normal styling) */
+        /* Normal text styling for testimonial text (first p inside each) */
         .testimonial p {
-            margin: 0 0 10px 0;
-            line-height: 1.5;
+            margin: 0 0 8px 0;
+            line-height: 1.4;
         }
 
-        /* Author styling */
+        /* Author paragraph */
         .author {
-            text-align: right;             /* Author to the right */
-            font-style: italic;            /* Italic as required */
+            text-align: right;          /* required */
+            font-style: italic;         /* required */
             margin: 0;
         }
